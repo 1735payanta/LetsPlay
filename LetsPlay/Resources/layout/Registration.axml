@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblFName "
+        android:text="First Name:"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFirstName"
+        android:hint="First Name"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblLName"
+        android:text="Last Name:"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLastName"
+        android:hint="Last Name"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblEAddress"
+        android:text="Email Address:"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmailAddress"
+        android:hint="Email Adress"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:text="Username:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblUsername" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsername"
+        android:hint="Username" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblPassword"
+        android:text="Password:"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:hint="Password"
+        android:password="true"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblCPassword"
+        android:text="Confirm Password:"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtConfirmPassword"
+        android:hint="Confirm Password"
+        android:password="true"
+        android:textColor="@android:color/white" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:text="Register" />
+    <ProgressBar xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBarRegister"
+        tools:visibility="invisible" />
+</LinearLayout>

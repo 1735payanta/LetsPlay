@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgProfilePic" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="Take Picture"
+            android:id="@+id/btnTakePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="76.0dp"
+            android:layout_marginLeft="0.0dp" />
+        <Button
+            android:text="Upload"
+            android:layout_width="161.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnUploadPhoto"
+            android:layout_marginRight="85.0dp" />
+    </LinearLayout>
+    <TextView
+        android:text="Name:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvName" />
+    <TextView
+        android:text="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvUserName" />
+    <TextView
+        android:text="Age:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvAge" />
+    <TextView
+        android:text="Skill:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvSkill" />
+    <TextView
+        android:text="Bio:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvBio" />
+    <TextView
+        android:text="Achievements"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvAchievements" />
+</LinearLayout>

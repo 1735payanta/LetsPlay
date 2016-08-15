@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGameName"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/black"
+        android:hint="Name" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNumbrOfPlayers"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/black"
+        android:hint="# of Players" />
+    <EditText
+        android:inputType="time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTime"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/black"
+        android:hint="Time" />
+    <EditText
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDate"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/black"
+        android:hint="Date" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLocation"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/black"
+        android:hint="Location" />
+    <Button
+        android:text="Invite Friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInviteFriends" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtviewFriends"
+        android:background="@android:color/background_light"
+        android:hint="Friends" />
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:background="@android:color/holo_red_dark" />
+</LinearLayout>
